@@ -1,0 +1,17 @@
+SET SERVEROUTPUT ON;
+
+DECLARE
+RES INTEGER;
+
+BEGIN
+
+
+
+all_win;
+RES:=win_percentage('PLAYER 2');
+DBMS_OUTPUT.PUT_LINE('WINING PERCENTAGE : ' ||RES||'%');
+
+
+
+END;
+/

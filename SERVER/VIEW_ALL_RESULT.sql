@@ -1,0 +1,8 @@
+create or replace view all_result(ID,MOVE_P1,MOVE_P2,MATCH_RESULT) as
+select ID,MOVE_P1,MOVE_P2,MATCH_RESULT from RESULT_TABLE;
+
+
+
+select * from all_result;
+
+commit;
